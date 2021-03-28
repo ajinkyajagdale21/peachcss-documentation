@@ -10,7 +10,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-left: 40px;
+  padding-left: 2.5rem;
   padding-top: 1rem;
   padding-bottom: 2rem;
 }
@@ -23,7 +23,7 @@ body {
   border: none;
   width: 40%;
   background-color: #15181c;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   color: white;
 }
 .navigations > small {
@@ -40,12 +40,11 @@ section {
 }
 section > p {
   color: rgb(122, 231, 231);
-  padding: 2rem 22rem;
+  margin: 2rem 10rem;
 }
 .section-header {
   font-size: x-large;
   font-weight: bolder;
-  padding: 0rem 22rem;
 }
 .sec-btn {
   border: none;
@@ -55,15 +54,20 @@ section > p {
   font-weight: 780;
   border-radius: 0.5rem;
   border: white;
-  margin: 3rem 36rem;
   font-size: large;
   cursor: pointer;
   text-decoration: none;
 }
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .footer {
   background-color: #15181c;
   padding-bottom: 0.01rem;
-  margin-top: 5.2rem;
+  margin-top: 1.5rem;
   border-top-right-radius: 1.5rem;
   border-top-left-radius: 1.5rem;
   font-size: large;
@@ -75,14 +79,13 @@ section > p {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-right: 11rem;
 }
 .list-non-bullet {
   list-style: none;
   padding-left: 28rem;
 }
 
-.list-item-inline {
+.display-inline {
   display: inline;
   padding: 0rem 0.5rem;
 }
@@ -116,7 +119,7 @@ section > p {
   border-radius: 0.75rem;
 }
 .sidebar-menu {
-  height: 590px;
+  height: 36.875rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -169,8 +172,8 @@ section > p {
 }
 .cross {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0rem;
+  right: 0rem;
   border: none;
   border-radius: 0.5rem;
   cursor: pointer;
@@ -325,7 +328,7 @@ section > p {
   height: auto;
   padding: 0.5rem;
 }
-.h-card {
+.horizontal-card {
   display: flex;
   flex-direction: row;
   border: 1px solid #ffcba4;
@@ -423,39 +426,39 @@ section > p {
 }
 .oncall-icon {
   background-color: #842029;
-  width: 30px;
-  height: 30px;
-  border-radius: 30px;
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 1.875rem;
   position: absolute;
-  top: 0px;
-  right: 10px;
+  top: 0rem;
+  right: 0.625rem;
 }
 .online-icon {
   background-color: green;
-  width: 30px;
-  height: 30px;
-  border-radius: 30px;
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 1.875rem;
   position: absolute;
-  top: 0px;
-  right: 10px;
+  top: 0rem;
+  right: 0.625rem;
 }
 .images {
   display: flex;
   margin: 1rem;
 }
-.l-img {
-  width: 300px;
-  height: 300px;
+.large-img {
+  width: 18.75rem;
+  height: 18.75rem;
   padding: 2rem;
 }
-.m-img {
-  width: 200px;
-  height: 200px;
+.medium-img {
+  width: 12.5rem;
+  height: 12.5rem;
   padding: 2rem;
 }
-.s-img {
-  width: 100px;
-  height: 100px;
+.small-img {
+  width: 6.25rem;
+  height: 6.25rem;
   padding: 2rem;
 }
 .row {
